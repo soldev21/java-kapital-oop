@@ -3,14 +3,20 @@ package main.model;
 /**
  * Created by Sherif on 2/29/2020.
  */
-public class B {
+public class SuperClass {
 
+    static int staticVariable =15;
     private int a;
     protected int b;
     public int c;
 
-    public B(){
+    public SuperClass(){
 
+    }
+
+    /*Never override this method.*/
+    public final void finalMethod(){
+        System.out.println("I'am final method.");
     }
 
     public int getA() {
@@ -35,5 +41,9 @@ public class B {
 
     public void setC(int c) {
         this.c = c;
+    }
+
+    public static void staticMethod(){
+        System.out.println("B's static method.");
     }
 }
