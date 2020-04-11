@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/model/SubClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="abstraction">
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Spiral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/EmptyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfaceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfaceB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfacePlayground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/SimpleInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/SimpleInterfaceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/SuperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/model/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/model/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/abstraction/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/BMW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/abstraction/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/abstraction/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Creature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Flying.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Flying.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Mammals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Mammals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Reptile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Reptile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Whale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Whale.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +58,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.interfaces" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -60,20 +75,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Vehicle">
+  <component name="RunManager" selected="Application.Spiral">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Application" />
+    <configuration name="InterfacePlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.interfaces.InterfacePlayground" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="main.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,13 +96,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.model.SubClass" />
+    <configuration name="SimpleInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.interfaces.SimpleInterface" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.model.*" />
+          <option name="PATTERN" value="main.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleInterfaceImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.interfaces.SimpleInterfaceImplementation" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spiral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Spiral" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,15 +319,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="Application.SubClass" />
       <item itemvalue="Application.Vehicle" />
+      <item itemvalue="Application.SimpleInterface" />
+      <item itemvalue="Application.SimpleInterfaceImplementation" />
+      <item itemvalue="Application.InterfacePlayground" />
+      <item itemvalue="Application.Spiral" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spiral" />
+        <item itemvalue="Application.InterfacePlayground" />
+        <item itemvalue="Application.SimpleInterface" />
+        <item itemvalue="Application.SimpleInterfaceImplementation" />
         <item itemvalue="Application.Vehicle" />
-        <item itemvalue="Application.SubClass" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -300,8 +347,26 @@
       <updated>1582964321089</updated>
       <workItem from="1582964333251" duration="9136000" />
       <workItem from="1583086436097" duration="199000" />
-      <workItem from="1586357938610" duration="6647000" />
+      <workItem from="1586357938610" duration="6984000" />
+      <workItem from="1586415442794" duration="2231000" />
+      <workItem from="1586607955911" duration="6401000" />
+      <workItem from="1586614377568" duration="4352000" />
     </task>
+    <task id="LOCAL-00001" summary="abstraction">
+      <created>1586365988056</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586365988056</updated>
+    </task>
+    <task id="LOCAL-00002" summary="abstraction">
+      <created>1586366010600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586366010600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,11 +377,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstraction" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

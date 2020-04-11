@@ -1,6 +1,8 @@
 package main.abstraction;
 
-public abstract class Vehicle {
+import main.interfaces.SimpleInterface;
+
+public abstract class Vehicle{
     public abstract void move();
 
     public void sayHello(){
@@ -9,11 +11,10 @@ public abstract class Vehicle {
 
     public static void main(String[] args) {
 //        Vehicle vehicle = new Vehicle();
-        BMW car = new BMW();
-        car.move();
-        car.sayHello();
-        Ship ship = new Ship();
-        ship.move();
-        ship.sayHello();
+        BMW bmw = new BMW("m3","bmw","red");
+        BMW bmw1 = new BMW("m3","bmw","blue");
+        System.out.println(bmw.equals(bmw1));
+        SimpleInterface a;
     }
+
 }
