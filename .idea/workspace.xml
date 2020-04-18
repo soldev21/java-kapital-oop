@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="polymorphism">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/SpiralStars.java" afterDir="false" />
+    <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="Spiral">
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/ExceptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Spiral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Spiral.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spiral">
+  <component name="RunManager" selected="Application.ExceptionTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -74,6 +74,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.exceptions.ExceptionTest" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,20 +116,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.interfaces.SimpleInterface" />
-      <module name="java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,19 +304,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleInterface" />
       <item itemvalue="Application.InterfacePlayground" />
       <item itemvalue="Application.Spiral" />
       <item itemvalue="Application.PolymorphismPlayground" />
       <item itemvalue="Application.DigitsOfNumber" />
+      <item itemvalue="Application.ExceptionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionTest" />
         <item itemvalue="Application.Spiral" />
         <item itemvalue="Application.DigitsOfNumber" />
         <item itemvalue="Application.PolymorphismPlayground" />
         <item itemvalue="Application.InterfacePlayground" />
-        <item itemvalue="Application.SimpleInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +338,7 @@
       <workItem from="1586614377568" duration="5066000" />
       <workItem from="1586884755690" duration="1205000" />
       <workItem from="1586962891712" duration="7333000" />
-      <workItem from="1587212382638" duration="2407000" />
+      <workItem from="1587212382638" duration="8031000" />
     </task>
     <task id="LOCAL-00001" summary="abstraction">
       <created>1586365988056</created>
@@ -368,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586972017191</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spiral">
+      <created>1587214802397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587214802397</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +398,8 @@
     <MESSAGE value="abstraction" />
     <MESSAGE value="interface" />
     <MESSAGE value="polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="polymorphism" />
+    <MESSAGE value="Spiral" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spiral" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
