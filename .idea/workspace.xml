@@ -2,11 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="Spiral">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/collections/CollectionGround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/CommonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/ExceptionA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/ExceptionB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/ExceptionC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/ExceptionD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Spiral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Spiral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/SpiralStars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/SpiralStars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/abstraction/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/BMW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/abstraction/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/abstraction/EmptyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/EmptyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/abstraction/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/abstraction/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/abstraction/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/algorithms/DigitsOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/algorithms/DigitsOfNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/exceptions/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/exceptions/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/exceptions/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfaceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfaceA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfaceB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfaceB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfacePlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/InterfacePlayground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/interfaces/SimpleInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/SimpleInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/interfaces/SimpleInterfaceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/interfaces/SimpleInterfaceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/Flying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/Mammals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/Reptile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/Reptile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/SubClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/SuperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/Whale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/Whale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/polymorphism/PolymorphismPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/polymorphism/PolymorphismPlayground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/polymorphism/SubClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/polymorphism/SubClassA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/polymorphism/SubClassB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/polymorphism/SubClassB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/polymorphism/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/polymorphism/SuperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Creature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Reptile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Reptile.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,45 +64,45 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1aGNO7iUvJS2H9f9UsLaU3Kwkmz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.6275862" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.exceptions" />
       <recent name="main" />
       <recent name="main.polymorphism" />
       <recent name="main.interfaces" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ExceptionTest">
+  <component name="RunManager" selected="Application.CollectionGround">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.collections.CollectionGround" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,20 +128,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfacePlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.interfaces.InterfacePlayground" />
-      <module name="java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,6 +256,7 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -242,7 +269,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -304,19 +331,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.InterfacePlayground" />
       <item itemvalue="Application.Spiral" />
       <item itemvalue="Application.PolymorphismPlayground" />
       <item itemvalue="Application.DigitsOfNumber" />
       <item itemvalue="Application.ExceptionTest" />
+      <item itemvalue="Application.CollectionGround" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionGround" />
         <item itemvalue="Application.ExceptionTest" />
         <item itemvalue="Application.Spiral" />
         <item itemvalue="Application.DigitsOfNumber" />
         <item itemvalue="Application.PolymorphismPlayground" />
-        <item itemvalue="Application.InterfacePlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +365,14 @@
       <workItem from="1586614377568" duration="5066000" />
       <workItem from="1586884755690" duration="1205000" />
       <workItem from="1586962891712" duration="7333000" />
-      <workItem from="1587212382638" duration="8031000" />
+      <workItem from="1587212382638" duration="8597000" />
+      <workItem from="1587238719053" duration="599000" />
+      <workItem from="1587302064677" duration="1482000" />
+      <workItem from="1587307889374" duration="96000" />
+      <workItem from="1587330801149" duration="1109000" />
+      <workItem from="1587369127742" duration="1614000" />
+      <workItem from="1587566831082" duration="7956000" />
+      <workItem from="1587818059277" duration="8807000" />
     </task>
     <task id="LOCAL-00001" summary="abstraction">
       <created>1586365988056</created>
@@ -375,24 +409,30 @@
       <option name="project" value="LOCAL" />
       <updated>1587214802397</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spiral">
+      <created>1587221513386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587221513386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="abstraction" />
@@ -401,95 +441,65 @@
     <MESSAGE value="Spiral" />
     <option name="LAST_COMMIT_MESSAGE" value="Spiral" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="2598" y="256" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1587820278898">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2598" y="256" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587820278898" />
+    <state width="1874" height="344" key="GridCell.Tab.0.bottom" timestamp="1587826626953">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587826626953" />
+    <state width="1874" height="344" key="GridCell.Tab.0.center" timestamp="1587826626953">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587826626953" />
+    <state width="1874" height="344" key="GridCell.Tab.0.left" timestamp="1587826626953">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587826626953" />
+    <state width="1874" height="344" key="GridCell.Tab.0.right" timestamp="1587826626953">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587826626953" />
+    <state width="1874" height="517" key="GridCell.Tab.1.bottom" timestamp="1587825000794">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="517" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587825000794" />
+    <state width="1874" height="517" key="GridCell.Tab.1.center" timestamp="1587825000794">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="517" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587825000794" />
+    <state width="1874" height="517" key="GridCell.Tab.1.left" timestamp="1587825000794">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="517" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587825000794" />
+    <state width="1874" height="517" key="GridCell.Tab.1.right" timestamp="1587825000794">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="517" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587825000794" />
+    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1587819952055">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587819952055" />
+    <state x="2490" y="161" width="770" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587821315852">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2490" y="161" width="770" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587821315852" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main/collections/CollectionGround.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>java</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

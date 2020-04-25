@@ -2,7 +2,7 @@ package main;
 
 public class Spiral {
     public static void main(String[] args) {
-        int n = 10;
+        int n = 4;
         int arr[][] = new int[n][n];
 
         int counter = 0;

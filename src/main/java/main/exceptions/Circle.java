@@ -1,5 +1,7 @@
 package main.exceptions;
 
+import java.io.IOException;
+
 public class Circle {
 
     private int radius;
@@ -12,8 +14,11 @@ public class Circle {
         return radius;
     }
 
-    public void setRadius(int radius) throws Exception {
-        if (radius<=0) throw new Exception("Radius of circle must be grater than zero.");
+    public void setRadius(int radius) throws ExceptionA, ExceptionD {
+        if (radius<0) throw new ExceptionB("Radius of circle must be grater than zero.");
+        if (radius==0) throw new ExceptionC("Radius of circle must be different than zero.");
+        if (radius==0) throw new ExceptionD("Radius of circle must be different than zero.");
+
         this.radius = radius;
     }
 }

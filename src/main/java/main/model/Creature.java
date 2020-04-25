@@ -22,4 +22,11 @@ public class Creature {
     public void feed(){
         System.out.println(String.format("My name is %s, i'am feeding!",name));
     }
+
+    @Override
+    public String toString() {
+        return "Creature{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
