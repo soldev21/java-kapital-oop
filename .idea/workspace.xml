@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="Spiral">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/collections/ListPlayground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/collections/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/collections/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/collections/MapPlayground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/CollectionGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/CollectionGround.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Creature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Flying.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Flying.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Mammals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Mammals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Reptile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Reptile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/model/Whale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/model/Whale.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +45,7 @@
       <recent name="main.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedList">
+  <component name="RunManager" selected="Application.MapPlayground">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -101,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.collections.MyLinkedList" />
+    <configuration name="MapPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.collections.MapPlayground" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -115,13 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spiral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Spiral" />
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.collections.MyLinkedList" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="main.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,19 +290,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Spiral" />
       <item itemvalue="Application.ExceptionTest" />
       <item itemvalue="Application.CollectionGround" />
       <item itemvalue="Application.ListPlayground" />
       <item itemvalue="Application.MyLinkedList" />
+      <item itemvalue="Application.MapPlayground" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapPlayground" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.ListPlayground" />
         <item itemvalue="Application.CollectionGround" />
         <item itemvalue="Application.ExceptionTest" />
-        <item itemvalue="Application.Spiral" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +333,9 @@
       <workItem from="1587566831082" duration="7956000" />
       <workItem from="1587818059277" duration="9425000" />
       <workItem from="1587890892719" duration="717000" />
-      <workItem from="1588173015317" duration="8799000" />
+      <workItem from="1588173015317" duration="8813000" />
+      <workItem from="1588420890106" duration="599000" />
+      <workItem from="1588775982226" duration="7367000" />
     </task>
     <task id="LOCAL-00001" summary="abstraction">
       <created>1586365988056</created>
@@ -391,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587827011255</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Spiral">
+      <created>1588182182895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588182182895</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,26 +423,30 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2598" y="256" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588176343855" />
-    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2" timestamp="1587827011183">
+    <state x="2587" y="298" width="576" height="508" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1588780235878">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587827011183" />
-    <state width="1874" height="206" key="GridCell.Tab.0.bottom" timestamp="1588181186395">
+    <state x="2587" y="298" width="576" height="508" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588780235878" />
+    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2" timestamp="1588182182846">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="206" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588181186395" />
-    <state width="1874" height="206" key="GridCell.Tab.0.center" timestamp="1588181186395">
+    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588182182846" />
+    <state width="1874" height="206" key="GridCell.Tab.0.bottom" timestamp="1588783334364">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="206" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588181186395" />
-    <state width="1874" height="206" key="GridCell.Tab.0.left" timestamp="1588181186395">
+    <state width="1874" height="206" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588783334364" />
+    <state width="1874" height="206" key="GridCell.Tab.0.center" timestamp="1588783334364">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="206" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588181186395" />
-    <state width="1874" height="206" key="GridCell.Tab.0.right" timestamp="1588181186395">
+    <state width="1874" height="206" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588783334364" />
+    <state width="1874" height="206" key="GridCell.Tab.0.left" timestamp="1588783334363">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="206" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588181186395" />
+    <state width="1874" height="206" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588783334363" />
+    <state width="1874" height="206" key="GridCell.Tab.0.right" timestamp="1588783334364">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="206" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588783334364" />
     <state width="1874" height="517" key="GridCell.Tab.1.bottom" timestamp="1587830343068">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -461,10 +467,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2363" y="130" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587819952055" />
-    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587827013074">
+    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588182184185">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587827013074" />
+    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588182184185" />
     <state x="2490" y="161" width="770" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587821315852">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
