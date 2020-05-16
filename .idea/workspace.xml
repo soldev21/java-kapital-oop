@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="Map">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/algorithms/Stars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/FileIOStreamPlayground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/FileWriterPlayground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/MyFileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/some.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/ByteArrayStreamPlayground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/PushBackReaderPlayground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/ScannerPlayground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/ComparablePlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/ComparablePlayground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/ComparatorPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/ComparatorPlayground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/IteratorPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/IteratorPlayground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/ListPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/ListPlayground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/MapPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/MapPlayground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/ModelComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/ModelComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/ModelComparator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/ModelComparator2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/QueuePlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/QueuePlayground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/collections/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/collections/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/io/FileIOStreamPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/io/FileIOStreamPlayground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/io/FileWriterPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/io/FileWriterPlayground.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +56,20 @@
       <recent name="main.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileIOStreamPlayground">
+  <component name="RunManager" selected="Application.PushBackReaderPlayground">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparablePlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.collections.ComparablePlayground" />
+    <configuration name="ByteArrayStreamPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.io.ByteArrayStreamPlayground" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.collections.*" />
+          <option name="PATTERN" value="main.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,13 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueuePlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.collections.QueuePlayground" />
+    <configuration name="PushBackReaderPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.io.PushBackReaderPlayground" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.collections.*" />
+          <option name="PATTERN" value="main.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,13 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.algorithms.Stars" />
+    <configuration name="ScannerPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.io.ScannerPlayground" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.algorithms.*" />
+          <option name="PATTERN" value="main.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,19 +301,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ComparablePlayground" />
-      <item itemvalue="Application.QueuePlayground" />
-      <item itemvalue="Application.Stars" />
       <item itemvalue="Application.FileWriterPlayground" />
       <item itemvalue="Application.FileIOStreamPlayground" />
+      <item itemvalue="Application.ByteArrayStreamPlayground" />
+      <item itemvalue="Application.ScannerPlayground" />
+      <item itemvalue="Application.PushBackReaderPlayground" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileIOStreamPlayground" />
+        <item itemvalue="Application.PushBackReaderPlayground" />
+        <item itemvalue="Application.ScannerPlayground" />
+        <item itemvalue="Application.ByteArrayStreamPlayground" />
         <item itemvalue="Application.FileWriterPlayground" />
-        <item itemvalue="Application.Stars" />
-        <item itemvalue="Application.ComparablePlayground" />
-        <item itemvalue="Application.QueuePlayground" />
+        <item itemvalue="Application.FileIOStreamPlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +355,9 @@
       <workItem from="1589468148549" duration="3998000" />
       <workItem from="1589472188835" duration="2100000" />
       <workItem from="1589474356174" duration="1377000" />
-      <workItem from="1589475808599" duration="337000" />
+      <workItem from="1589475808599" duration="1024000" />
+      <workItem from="1589478177681" duration="1201000" />
+      <workItem from="1589630471129" duration="10234000" />
     </task>
     <task id="LOCAL-00001" summary="abstraction">
       <created>1586365988056</created>
@@ -433,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589040490157</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Map">
+      <created>1589476407036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589476407036</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,30 +471,30 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2587" y="298" width="576" height="508" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588780235878" />
-    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2" timestamp="1589040490030">
+    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2" timestamp="1589476406893">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589040490030" />
-    <state width="1874" height="200" key="GridCell.Tab.0.bottom" timestamp="1589476146707">
+    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589476406893" />
+    <state width="1874" height="318" key="GridCell.Tab.0.bottom" timestamp="1589640760975">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589476146707" />
-    <state width="1874" height="200" key="GridCell.Tab.0.center" timestamp="1589476146707">
+    <state width="1874" height="318" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640760975" />
+    <state width="1874" height="318" key="GridCell.Tab.0.center" timestamp="1589640760975">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589476146707" />
-    <state width="1874" height="200" key="GridCell.Tab.0.left" timestamp="1589476146707">
+    <state width="1874" height="318" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640760975" />
+    <state width="1874" height="318" key="GridCell.Tab.0.left" timestamp="1589640760975">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589476146707" />
-    <state width="1874" height="200" key="GridCell.Tab.0.right" timestamp="1589476146707">
+    <state width="1874" height="318" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640760975" />
+    <state width="1874" height="318" key="GridCell.Tab.0.right" timestamp="1589640760975">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589476146707" />
+    <state width="1874" height="318" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640760975" />
     <state width="1874" height="517" key="GridCell.Tab.1.bottom" timestamp="1589056144484">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -512,18 +515,18 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2363" y="130" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587819952055" />
-    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589040491601">
+    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589476408432">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589040491601" />
+    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589476408432" />
     <state x="2490" y="161" width="770" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587821315852">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2490" y="161" width="770" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587821315852" />
-    <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1589475544089">
+    <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1589636514650">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589475544089" />
+    <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589636514650" />
     <state x="2605" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1589472204729">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

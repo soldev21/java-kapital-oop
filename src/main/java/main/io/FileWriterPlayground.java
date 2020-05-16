@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Objects;
 
 public class FileWriterPlayground {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         File file = new File("kapital.txt");
 
@@ -45,7 +45,17 @@ public class FileWriterPlayground {
 
         }
 
+        System.out.println("\n\n\n\n***************RandomAccessFiles***************\n");
+        RandomAccessFile randomAccessFile = new RandomAccessFile(file,"rw");
+        randomAccessFile.seek(2);
+        long pos = randomAccessFile.getFilePointer();
+        System.out.println("position: "+pos);
+        randomAccessFile.write("SALAMM".getBytes());
+        randomAccessFile.close();
+
         System.out.println("Application Ended successfully!");
+
+
 
     }
 
