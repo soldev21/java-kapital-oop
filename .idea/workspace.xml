@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="Map">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/some.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/ByteArrayStreamPlayground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/PushBackReaderPlayground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/io/ScannerPlayground.java" afterDir="false" />
+    <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="IO">
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/GenericPlayground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/Holder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/ListHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/io/FileIOStreamPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/io/FileIOStreamPlayground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/io/FileWriterPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/io/FileWriterPlayground.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +48,20 @@
       <recent name="main.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PushBackReaderPlayground">
+  <component name="RunManager" selected="Application.ListHolder">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteArrayStreamPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.io.ByteArrayStreamPlayground" />
+    <configuration name="GenericPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.generics.GenericPlayground" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.io.*" />
+          <option name="PATTERN" value="main.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,13 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileIOStreamPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.io.FileIOStreamPlayground" />
+    <configuration name="Holder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.generics.Holder" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.io.*" />
+          <option name="PATTERN" value="main.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,13 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriterPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.io.FileWriterPlayground" />
+    <configuration name="ListHolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.generics.ListHolder" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.io.*" />
+          <option name="PATTERN" value="main.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,19 +293,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FileWriterPlayground" />
-      <item itemvalue="Application.FileIOStreamPlayground" />
-      <item itemvalue="Application.ByteArrayStreamPlayground" />
       <item itemvalue="Application.ScannerPlayground" />
       <item itemvalue="Application.PushBackReaderPlayground" />
+      <item itemvalue="Application.GenericPlayground" />
+      <item itemvalue="Application.Holder" />
+      <item itemvalue="Application.ListHolder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListHolder" />
+        <item itemvalue="Application.Holder" />
+        <item itemvalue="Application.GenericPlayground" />
         <item itemvalue="Application.PushBackReaderPlayground" />
         <item itemvalue="Application.ScannerPlayground" />
-        <item itemvalue="Application.ByteArrayStreamPlayground" />
-        <item itemvalue="Application.FileWriterPlayground" />
-        <item itemvalue="Application.FileIOStreamPlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +349,8 @@
       <workItem from="1589474356174" duration="1377000" />
       <workItem from="1589475808599" duration="1024000" />
       <workItem from="1589478177681" duration="1201000" />
-      <workItem from="1589630471129" duration="10234000" />
+      <workItem from="1589630471129" duration="11041000" />
+      <workItem from="1589987912248" duration="6676000" />
     </task>
     <task id="LOCAL-00001" summary="abstraction">
       <created>1586365988056</created>
@@ -436,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589476407036</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="IO">
+      <created>1589640977142</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589640977142</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +460,8 @@
     <MESSAGE value="polymorphism" />
     <MESSAGE value="Spiral" />
     <MESSAGE value="Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map" />
+    <MESSAGE value="IO" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2598" y="256" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1589472509583">
@@ -471,30 +472,34 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2587" y="298" width="576" height="508" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1588780235878" />
-    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2" timestamp="1589476406893">
+    <state x="2599" y="122" width="552" height="860" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589992235410">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589476406893" />
-    <state width="1874" height="318" key="GridCell.Tab.0.bottom" timestamp="1589640760975">
+    <state x="2599" y="122" width="552" height="860" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589992235410" />
+    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2" timestamp="1589640977046">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640977046" />
+    <state width="1874" height="259" key="GridCell.Tab.0.bottom" timestamp="1589994295020">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="318" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640760975" />
-    <state width="1874" height="318" key="GridCell.Tab.0.center" timestamp="1589640760975">
+    <state width="1874" height="259" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589994295020" />
+    <state width="1874" height="259" key="GridCell.Tab.0.center" timestamp="1589994295019">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="318" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640760975" />
-    <state width="1874" height="318" key="GridCell.Tab.0.left" timestamp="1589640760975">
+    <state width="1874" height="259" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589994295019" />
+    <state width="1874" height="259" key="GridCell.Tab.0.left" timestamp="1589994295019">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="318" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640760975" />
-    <state width="1874" height="318" key="GridCell.Tab.0.right" timestamp="1589640760975">
+    <state width="1874" height="259" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589994295019" />
+    <state width="1874" height="259" key="GridCell.Tab.0.right" timestamp="1589994295020">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="318" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640760975" />
+    <state width="1874" height="259" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589994295020" />
     <state width="1874" height="517" key="GridCell.Tab.1.bottom" timestamp="1589056144484">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -511,14 +516,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="517" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589056144483" />
-    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1587819952055">
+    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1589991720669">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1587819952055" />
-    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589476408432">
+    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589991720669" />
+    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589640978934">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589476408432" />
+    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589640978934" />
     <state x="2490" y="161" width="770" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587821315852">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
