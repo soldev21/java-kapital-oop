@@ -26,6 +26,10 @@ public class Holder<T, E extends Number> {
         this.e = e;
     }
 
+    private static <T> T staticMethod(T t){
+        return t;
+    }
+
     public static void main(String[] args) {
         Holder<String,Integer> holder = new Holder("Kapital",15);
         String s = holder.getT();

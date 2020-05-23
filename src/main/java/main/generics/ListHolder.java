@@ -32,7 +32,7 @@ public class ListHolder<T> {
     }
 
     public static void main(String[] args) {
-        ListHolder<Integer> listHolder = new ListHolder<>(Arrays.asList("a","b","c");
+        ListHolder<String> listHolder = new ListHolder<>(Arrays.asList("a","b","c"));
         listHolder.print();
     }
 }
