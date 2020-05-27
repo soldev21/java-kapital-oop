@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6589925b-05dd-4840-be34-a34d1eb9b47a" name="Default" comment="generics">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/MyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/Stats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/datareg/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/datareg/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/datareg/DataRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/datareg/Playground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/datareg/RegistryFactoryLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/wildcard/Coords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/wildcard/FourD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/wildcard/PrintCoords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/wildcard/ThreeD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/generics/wildcard/TwoD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/lambda/IteratorConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/lambda/LambdaPlayground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/lambda/MyFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/lambda/MyPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/multithreading/MultiThreadingPlayground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/generics/GenericPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/generics/GenericPlayground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/generics/Holder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/generics/Holder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/generics/ListHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/generics/ListHolder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +42,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.6275862" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/main/generics/datareg" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Playground">
+  <component name="RunManager" selected="Application.MultiThreadingPlayground">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -88,13 +78,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.generics.GenericPlayground" />
+    <configuration name="LambdaPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lambda.LambdaPlayground" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.generics.*" />
+          <option name="PATTERN" value="main.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreadingPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.multithreading.MultiThreadingPlayground" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,20 +127,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.generics.wildcard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.generics.Stats" />
-      <module name="java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,19 +302,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.GenericPlayground" />
-      <item itemvalue="Application.Stats" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.PrintCoords" />
       <item itemvalue="Application.Playground" />
+      <item itemvalue="Application.LambdaPlayground" />
+      <item itemvalue="Application.MultiThreadingPlayground" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreadingPlayground" />
+        <item itemvalue="Application.LambdaPlayground" />
         <item itemvalue="Application.Playground" />
         <item itemvalue="Application.PrintCoords" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.Stats" />
-        <item itemvalue="Application.GenericPlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +360,9 @@
       <workItem from="1589478177681" duration="1201000" />
       <workItem from="1589630471129" duration="11041000" />
       <workItem from="1589987912248" duration="6699000" />
-      <workItem from="1590217535264" duration="8892000" />
+      <workItem from="1590217535264" duration="9149000" />
+      <workItem from="1590303871752" duration="12000" />
+      <workItem from="1590567003549" duration="10188000" />
     </task>
     <task id="LOCAL-00001" summary="abstraction">
       <created>1586365988056</created>
@@ -463,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589996241799</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="generics">
+      <created>1590226677863</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590226677863</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,10 +491,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="generics" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2598" y="256" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1590219546146">
+    <state x="2598" y="256" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1590567541680">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2598" y="256" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590219546146" />
+    <state x="2598" y="256" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590567541680" />
     <state x="2587" y="298" width="576" height="508" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1588780235878">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -504,30 +503,30 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2599" y="122" width="552" height="860" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589992235410" />
-    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2" timestamp="1589996241743">
+    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2" timestamp="1590226677786">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589996241743" />
-    <state width="1874" height="200" key="GridCell.Tab.0.bottom" timestamp="1590225388344">
+    <state x="2419" y="100" width="912" height="905" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590226677786" />
+    <state width="1874" height="427" key="GridCell.Tab.0.bottom" timestamp="1590577757947">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590225388344" />
-    <state width="1874" height="200" key="GridCell.Tab.0.center" timestamp="1590225388344">
+    <state width="1874" height="427" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590577757947" />
+    <state width="1874" height="427" key="GridCell.Tab.0.center" timestamp="1590577757947">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590225388344" />
-    <state width="1874" height="200" key="GridCell.Tab.0.left" timestamp="1590225388344">
+    <state width="1874" height="427" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590577757947" />
+    <state width="1874" height="427" key="GridCell.Tab.0.left" timestamp="1590577757946">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590225388344" />
-    <state width="1874" height="200" key="GridCell.Tab.0.right" timestamp="1590225388344">
+    <state width="1874" height="427" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590577757946" />
+    <state width="1874" height="427" key="GridCell.Tab.0.right" timestamp="1590577757947">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="206" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1589028446454" />
-    <state width="1874" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590225388344" />
+    <state width="1874" height="427" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590577757947" />
     <state width="1874" height="517" key="GridCell.Tab.1.bottom" timestamp="1589056144484">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -544,14 +543,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="517" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589056144483" />
-    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1590222130776">
+    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1590568643565">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590222130776" />
-    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589996243273">
+    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590568643565" />
+    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590226679198">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589996243273" />
+    <state x="2475" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1590226679198" />
     <state x="2490" y="161" width="770" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587821315852">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
