@@ -63,6 +63,7 @@ public class LambdaPlayground {
 //        MyPrinter printer1 = System.out::println;
 //        printer1.print("Salam Kapital Bank!");
 //        printer.print("Salam Kapital Bank!");
+
     }
 
 

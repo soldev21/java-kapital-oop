@@ -6,10 +6,11 @@ public class MultiThreadingPlayground {
         System.out.println(main.getName());
         Thread thread = new Thread(() -> {
             try {
-                while (true) {
-                    Thread.sleep(1000);
+                while (!Thread.currentThread().isInterrupted()){
+//                    Thread.sleep(1000);
                     System.out.println("Another thread.");
                 }
+                System.out.println("Another Thread ENDED");
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -18,8 +19,8 @@ public class MultiThreadingPlayground {
 
         Thread thread2 = new Thread(() -> {
             try {
-                while (true) {
-                    Thread.sleep(500);
+                while (!Thread.currentThread().isInterrupted()){
+//                    Thread.sleep(500);
                     System.out.println("Another thread 2.");
                 }
             } catch (Exception e) {
@@ -30,8 +31,15 @@ public class MultiThreadingPlayground {
 
         thread.start();
         thread2.start();
+//        thread.join();
+//        thread2.join();
+
+        Thread.sleep(10);
+        thread.interrupt();
 
         System.out.println("Program Ended successfully");
-        Thread.sleep(5000);
+        Thread.sleep(1);
+
+
     }
 }
